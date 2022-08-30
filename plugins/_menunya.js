@@ -194,7 +194,7 @@ const ftroli = {
                           }
                         }
                       }
-await conn.send3ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/cfbeb870983c988666691.png')).buffer(),  '*────────[ DASBOARD ]────────*', text, 'INFO BOT', '.info', 'LIST MENU', '.menu', 'OWNER', '.owner',  m, {
+await conn.send3ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/cfbeb870983c988666691.png')).buffer(),  '*ᕙ────[ DASBOARD ]────ᕗ*', text, 'INFO BOT', '.info', 'LIST MENU', '.menu', 'OWNER', '.owner',  m, {
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
