@@ -3,24 +3,24 @@
 //Dalam file _menunya.js
 
 //『 Utama 』 //
-global.owner = ['6282xxxxxx']  // isi jika perlu
-global.mods = ['6282xxxxxx']   // isi jika perlu
-global.prems = ['6282xxxxxx']  // isi jika perlu
+global.owner = ['79967781119']  // isi jika perlu
+global.mods = ['79967781119']   // isi jika perlu
+global.prems = ['79967781119']  // isi jika perlu
 
 //Isi dengan nama dan nomor lu//
-global.nameowner = '⫹⫺ OWNER' // isi nama kalian bebas
-global.numberowner = '6282xxxxxx' // isi nomor kalian dengan awalan seperti di contoh 
-global.instagram = 'https://instagram.com/prm2.0' // isi Instagram kalian harus link
-global.github = 'https://github.com/BOTCAHX' // gausah di isi juga gpp bro
-global.dana = '6282xxxxxx' // isi dengan nomor dana yg kamu punya 
-global.pulsa = '6282xxxxxx' // isi dengan nomor pulsa hp kalian
+global.nameowner = '⫹⫺ Sakka' // isi nama kalian bebas
+global.numberowner = '79967781119' // isi nomor kalian dengan awalan seperti di contoh 
+global.instagram = 'https://instagram.com/jaka_dnz' // isi Instagram kalian harus link
+global.github = 'https://instagram.com/jaka_dnz' // gausah di isi juga gpp bro
+global.dana = '79967781119' // isi dengan nomor dana yg kamu punya 
+global.pulsa = '79967781119' // isi dengan nomor pulsa hp kalian
 global.gopay = ''
 
 //Name Bot & Grouplink//
-global.namebot = 'R-txzyMd'
-global.gc = 'https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL'
-global.web = 'https://myblogxyz.netlify.app' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
-global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
+global.namebot = 'Alyn Botz'
+global.gc = 'https://chat.whatsapp.com/LSvh4GagBw9BYtiBxT31xe'
+global.web = 'https://chat.whatsapp.com/LSvh4GagBw9BYtiBxT31xe' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.price1 = '*Sewa Bot*n\10k Permanenn\Hubungi http://Wa.me/79967781119'
 
 //Tanpilan wm Bot ( Sebagian Tidak di fungsi kan)//
 global.fotonya1 = 'https://botcahx-rest-api.herokuapp.com/api/textpro/marvel-studios?text=List%20&text2=Menu' 
@@ -29,20 +29,20 @@ global.lolkey = 'rey2k22' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
 global.wm = '© R-TXZY-MD'
 global.watermark = wm
-global.wm2 = '⫹⫺ R-TXZY-MD'
-global.wm3 = '© R-TXZY-MD'
-global.wm4 = '© 2021/2022'
+global.wm2 = '⫹⫺ Alyn Botz'
+global.wm3 = '© Alyn Botz'
+global.wm4 = '© 2022'
 global.htki = '––––––『' 
 global.htka = '』––––––'
 global.media = 'https://database.tioclkp02.repl.co/IMG_20220803_172938.JPG'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='
-global.wait = '_*Tunggu sedang di proses...*_'
-global.eror = '_*Server Error*_'
+global.wait = '_*Tunggu Yak Sedang Diproses...*_'
+global.eror = '_*Eh Anjir Emror*_'
 global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = '*⫹⫺ Stiker sedang dibuat...*'
 global.packname = 'Made with'
-global.author = 'Bot WhatsApp\nR-TXZY-MD'
+global.author = 'Bot WhatsApp\nAlyn Botz'
 
 //Apikey Setting//
 global.APIs = { // API Prefix
