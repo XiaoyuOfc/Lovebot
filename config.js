@@ -20,7 +20,7 @@ global.gopay = ''
 global.namebot = 'Alyn Botz'
 global.gc = 'https://chat.whatsapp.com/LSvh4GagBw9BYtiBxT31xe'
 global.web = 'https://chat.whatsapp.com/LSvh4GagBw9BYtiBxT31xe' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
-global.price1 = '*Sewa Bot*n\10k Permanenn\Hubungi http://Wa.me/79967781119'
+global.price1 = '*Sewa Bot*\nn10k Permanen\nHubungi http://Wa.me/79967781119'
 
 //Tanpilan wm Bot ( Sebagian Tidak di fungsi kan)//
 global.fotonya1 = 'https://botcahx-rest-api.herokuapp.com/api/textpro/marvel-studios?text=List%20&text2=Menu' 
