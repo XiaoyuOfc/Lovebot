@@ -6,19 +6,19 @@ let _uptime = process.uptime() * 1000
     let time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
    let ar = ['list', 'menu']
    let ras = `Hai Kak  @${m.sender.split('@')[0]} 👋`
-    let sel = `*© Rtxzy*`
-    let rs = `Click Here`
+    let sel = `*© Alyn Botz*\n Ready Nokos WhatsApp\nIndo +62 5k\nUSA +1 5K\nRusia +7 5k\nDan Lain-lain, Jika minat Hubungi Owner`
+    let rs = `Klik Disini `
 const sections = [ {
-	title: `☁️ Aktif ${uptime} || ⏲️ Jam ${time} WIB`,
+	title: `Alyn Botz |☁️ Aktif Selama ${uptime}`,
 	rows: [
-	    {title: `Semua Perintah`, rowId: `.a `},//, description: ``},
-            {title: `All CMD Payment`, rowId: `.pay `},//, description: ``},
-	    {title: `Owner`, rowId: `#owner `},//, description: ``},
-        {title: `Donasi`, rowId: `#donasi `},//, description: ``},
-        {title: `Script`, rowId: `#sc `},//, description: ``},
-        {title: `Group Official`, rowId: `#gcbot `},//, description: ``},
-        {title: `Speed`, rowId: `#speed `},//, description: ``},
-        {title: `List Texpro Maker`, rowId: `#textpro `},//, description: ``},
+	    {title: `[あ] SEMUA PERINTAH, rowId: `.a `},//, description: ``},
+            {title: `[あ] All CMD Payment`, rowId: `.pay `},//, description: ``},
+	    {title: `[あ] OWNER`, rowId: `#owner `},//, description: ``},
+        {title: `[あ] DONASI`, rowId: `#donasi `},//, description: ``},
+        {title: `[あ] SCRIPT BOT`, rowId: `#sc `},//, description: ``},
+        {title: `[あ] GROUP OFC`, rowId: `#gcbot `},//, description: ``},
+        {title: `[あ] SPEED`, rowId: `#speed `},//, description: ``},
+        {title: `[あ] LIST TEXT PRO`, rowId: `#textpro `},//, description: ``},
         ]
  } ]
 
