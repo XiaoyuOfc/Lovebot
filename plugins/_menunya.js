@@ -194,16 +194,16 @@ const ftroli = {
                           }
                         }
                       }
-await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/6937a1e790542be2c3658.jpg')).buffer(),).buffer(),  '*────────[ DASBOARD ]────────*', text, 'INFOBOT', '.info', 'LISTMENU', '.menu', m, {  
+await conn.send3ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/cfbeb870983c988666691.png')).buffer(),  '*────────[ DASBOARD ]────────*', text, 'INFO BOT', '.info', 'LIST MENU', '.menu', 'OWNER', '.owner',  m, {
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
-              title: 'Bot Wahatsapp Alyn Md',  
+              title: 'Bot Wahatsapp Alyn Md',
               body: '© Sakka', 
               description: 'Made With ❤️ Sakka', 
               mediaType: 2,  
             thumbnail: await (await fetch('https://telegra.ph/file/72e0aeffe395f99539b95.jpg')).buffer(), 
-           mediaUrl: `https://www.facebook.com/tio.permana.50999` 
+           mediaUrl: `https://youtu.be/ZH64Xapsj6M` 
           }  
        }  
       })
