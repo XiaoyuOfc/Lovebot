@@ -6,7 +6,7 @@ let _uptime = process.uptime() * 1000
     let time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
    let ar = ['list', 'menu']
    let ras = `Hai Kak  @${m.sender.split('@')[0]} 👋`
-    let sel = `*© Alyn Botz*\nReady Nokos WhatsApp\nIndo +62 5k\nUSA +1 5K\nRusia +7 5k\nDan Lain-lain, Jika minat Hubungi Owner`
+    let sel = `*© Alyn Botz*\nReady Nokos WhatsApp\nIndo +62 5k\nUSA +1 5K\nRusia +7 5k\nDan Lain-lain, Jika minat Hubungi Owner\n*Bot Aktip Selama ${uptime}*`
     let rs = `Klik Disini`
 const sections = [ {
 	title: `Alyn Botz |☁️ Aktif Selama ${uptime}`,
