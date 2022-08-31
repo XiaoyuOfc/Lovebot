@@ -194,6 +194,7 @@ const ftroli = {
                           }
                         }
                       }
+await conn.reply(m.chat, '*Sabar Yak, Sedang Di Proses...*\n*Orang Sabar Disayang Mantan*\n*Awokawok, Canda Atuh*', m)
 await conn.send3ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/cfbeb870983c988666691.png')).buffer(),  '*ᕙ────[ DASBOARD ]────ᕗ*', text, 'INFO BOT', '.info', 'LIST MENU', '.menu', 'OWNER', '.owner',  m, {
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
@@ -207,6 +208,7 @@ await conn.send3ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/cf
           }  
        }  
       })
+ await conn.reply(m.chat, '*Tuh Menunya, Jangan Spam Yak:v*', m)
 //await conn.sendFile(m.chat, vn, 'menu.opus', null, m, true, {
 //type: 'audioMessage', 
 //ptt: true})
