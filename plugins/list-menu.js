@@ -9,16 +9,16 @@ let _uptime = process.uptime() * 1000
     let sel = `*© Alyn Botz*\nReady Nokos WhatsApp\nIndo +62 5k\nUSA +1 5K\nRusia +7 5k\nDan Lain-lain, Jika minat Hubungi Owner\n*Bot Aktip Selama ${uptime}*`
     let rs = `Klik Disini`
 const sections = [ {
-	title: `Alyn Botz |☁️ Aktif Selama ${uptime}`,
+	title: `Alyn Botz | Aktif Selama ${uptime}`,
 	rows: [
-	    {title: `[あ] SEMUA PERINTAH`, rowId: `.a `},//, description: ``},
-            {title: `[あ] All CMD Payment`, rowId: `.pay `},//, description: ``},
-	    {title: `[あ] OWNER`, rowId: `#owner `},//, description: ``},
-        {title: `[あ] DONASI`, rowId: `#donasi `},//, description: ``},
-        {title: `[あ] SCRIPT BOT`, rowId: `#sc `},//, description: ``},
-        {title: `[あ] GROUP OFC`, rowId: `#gcbot `},//, description: ``},
-        {title: `[あ] SPEED`, rowId: `#speed `},//, description: ``},
-        {title: `[あ] LIST TEXT PRO`, rowId: `#textpro `},//, description: ``},
+	    {title: `[あ] SEMUA PERINTAH 🌺`, rowId: `.a `},//, description: ``},
+            {title: `[あ] ALL MENU VERSI PAYMENT🌷`, rowId: `.pay `},//, description: ``},
+	    {title: `[あ] OWNER 🗿`, rowId: `#owner `},//, description: ``},
+        {title: `[あ] DONASI 🍁`, rowId: `#donasi `},//, description: ``},
+        {title: `[あ] SCRIPT BOT ✨`, rowId: `#sc `},//, description: ``},
+        {title: `[あ] GROUP OFC 💓`, rowId: `#gcbot `},//, description: ``},
+        {title: `[あ] SPEED 🍂`, rowId: `#speed `},//, description: ``},
+        {title: `[あ] LIST TEXT PRO 🌸`, rowId: `#textpro `},//, description: ``},
         ]
  } ]
 
