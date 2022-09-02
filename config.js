@@ -5,7 +5,7 @@
 //『 Utama 』 //
 global.owner = ['79967781119']  // isi jika perlu
 global.mods = ['79967781119']   // isi jika perlu
-global.prems = ['79967781119']  // isi jika perlu
+global.prems = ['6283149627116']  // isi jika perlu
 
 //Isi dengan nama dan nomor lu//
 global.nameowner = '⫹⫺ Sakka' // isi nama kalian bebas
