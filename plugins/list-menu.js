@@ -9,23 +9,23 @@ let _uptime = process.uptime() * 1000
     let sel = `*I Am Ndra Botz*\n*Bot ini Aktif Selama ${uptime}*`
     let rs = `Klik Disini`
 const sections = [ {
-	title: `Ndra Botz | Jangan Spa`,
+	title: `Ndra Botz | Jangan Spam`,
 	rows: [
 	    {title: `Semua Perintah`, rowId: `.menul `},//, description: ``},
             {title: `Nokos/Nomor Kosong`, rowId: `.nokos `},//, description: ``},
 	    {title: `Pemilik Bot`, rowId: `#owner `},//, description: ``},
         {title: `Jasa Run Bot`, rowId: `#jasrun `},//, description: ``},
-        {title: `Bot Ini Gratis Ya`, rowId: `#gcbot `},//, description: ``},
-        {title: `Caranya, Hubungi Owner`, rowId: `#owner `},//, description: ``},
-         {title: `Dan Kirim Link Grup Kalian!`, rowId: `#gcbot `},//, description: ``},
-           {title: `Harap Sopan`, rowId: `#gcbot `},//, description: ``},
+        {title: `Sewa bot permanen 15k untuk 2 grup`, rowId: `#owner `},//, description: ``},
+        {title: `10k Permanen untuk 1 grup`, rowId: `#owner `},//, description: ``},
+         {title: `Yang Sewa bot, Dapet Prem gratis`, rowId: `#owner `},//, description: ``},
+           {title: `Bot On 24 Jam`, rowId: `#gcbot `},//, description: ``},
         ]
  } ]
 
 const listMessage = {
   text: sel,
   mentions: [m.sender],
-  footer: '*Note:* ```Saya Hanya Bot Biasa Yang Kadang Suka Error```',
+  footer: '*Note:* ```Bot ini akan terus dan terus update, Jika menemukan fitur error/mau req fitur, hubungi saja owner```',
   title: ras,
   buttonText: rs,
   sections
