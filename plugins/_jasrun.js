@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command, args }) => {
-let tetekss = `───〔 *Minat?* 〕───
+let tetekss = `───〔 *Minat??* 〕───
 
 ${pickRandom(global.jasrun)}`
 conn.sendBut(m.chat, tetekss, wm3, 'Owner', '.owner', m) 
