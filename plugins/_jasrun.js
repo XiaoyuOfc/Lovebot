@@ -1,7 +1,7 @@
 let handler = async (m, { conn, command, args }) => {
 let tetekss = `───〔 *Minat?* 〕───
 
-${pickRandom(global.ngawur)}`
+${pickRandom(global.jasrun)}`
 conn.sendBut(m.chat, tetekss, wm3, 'Owner', '.owner', m) 
 }
 handler.help = ['jasrun']
@@ -24,6 +24,6 @@ function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
 
-global.ngawur = [
+global.jasrun = [
 "Open Jasa Run Heroku\nHARGA\n10K SEBULAN\n15 PERMANEN\nSYARATNYA: Pakai Sc Yang Saya Gunakan, Karena Sc Yang Saya Gunakan Work heroku (ON 24 JAM DI HEROKU)\nJika Minat Hubungi Saja http://wa.me/+66615143033",
 ]
