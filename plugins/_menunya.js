@@ -181,7 +181,7 @@ await conn.reply(m.chat, '*Wait...*', m)
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
               title: 'Bot Wahatsapp Ndra Md',
-              body: '© Ndra', 
+              body: '© Nicko', 
               description: 'Made With ❤️ Nicko', 
               mediaType: 2,  
             thumbnail: await (await fetch('https://telegra.ph/file/72e0aeffe395f99539b95.jpg')).buffer(), 
