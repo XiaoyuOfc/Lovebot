@@ -183,10 +183,10 @@ const ftroli = {
                         },
        message: {
                     orderMessage: {
-                            itemCount : 9999999999999,
+                            itemCount : 123456789,
                             status: 1,
                             surface : 1,
-                            message: 'Sakka Official',
+                            message: 'Nicko Official',
                             orderTitle: 'MENU',
                             thumbnail: await (await fetch('https://telegra.ph/file/3911d7aaaa8733314f70f.png')).buffer(),
                             sellerJid: '0@s.whatsapp.net'
@@ -194,21 +194,20 @@ const ftroli = {
                           }
                         }
                       }
-await conn.reply(m.chat, '*Sabar Yak, Sedang Di Proses...*\n*Orang Sabar Disayang Mantan*\n*Awokawok, Canda Atuh*', m)
-await conn.send3ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/cfbeb870983c988666691.png')).buffer(),  '*ᕙ────[ DASBOARD ]────ᕗ*', text, 'INFO BOT', '.info', 'LIST MENU', '.menu', 'OWNER', '.owner',  m, {
+await conn.reply(m.chat, '*Wait...*', m)
+await conn.send2Button(m.chat, await (await fetch('https://telegra.ph/file/cfbeb870983c988666691.png')).buffer(),  '*[ DASBOARD ]*', text, 'INFO BOT', '.info', 'OWNER', '.owner',  m, {
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
-              title: 'Bot Wahatsapp Alyn Md',
-              body: '© Sakka', 
-              description: 'Made With ❤️ Sakka', 
+              title: 'Bot Wahatsapp Ndra Md',
+              body: '© Ndra', 
+              description: 'Made With ❤️ Nicko', 
               mediaType: 2,  
             thumbnail: await (await fetch('https://telegra.ph/file/72e0aeffe395f99539b95.jpg')).buffer(), 
            mediaUrl: `https://youtu.be/ZH64Xapsj6M` 
           }  
        }  
       })
- await conn.reply(m.chat, '*Tuh Menunya, Jangan Spam Yak:v*', m)
 //await conn.sendFile(m.chat, vn, 'menu.opus', null, m, true, {
 //type: 'audioMessage', 
 //ptt: true})
@@ -219,7 +218,7 @@ await conn.send3ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/cf
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = /^(a)$/i
+handler.command = /^(menu|help|?)$/i
 
 handler.exp = 3
 
