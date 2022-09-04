@@ -4,28 +4,28 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 let _uptime = process.uptime() * 1000
     let uptime = clockString(_uptime)
     let time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
-   let ar = ['list', 'menu']
+    let ar = ['list', 'menu']
    let ras = `Hai Kak  @${m.sender.split('@')[0]} 👋`
-    let sel = `*© Alyn Botz*\nReady Nokos WhatsApp\nIndo +62 5k\nUSA +1 5K\nRusia +7 5k\nDan Lain-lain, Jika minat Hubungi Owner\n*Bot Aktip Selama ${uptime}*`
+    let sel = `*I Am Ndra Botz*\n*Bot ini Aktif Selama ${uptime}*`
     let rs = `Klik Disini`
 const sections = [ {
-	title: `Alyn Botz | Aktif Selama ${uptime}`,
+	title: `Ndra Botz | Jangan Spa`,
 	rows: [
-	    {title: `[あ] SEMUA PERINTAH 🌺`, rowId: `.a `},//, description: ``},
-            {title: `[あ] ALL MENU VERSI PAYMENT🌷`, rowId: `.pay `},//, description: ``},
-	    {title: `[あ] OWNER 🗿`, rowId: `#owner `},//, description: ``},
-        {title: `[あ] DONASI 🍁`, rowId: `#donasi `},//, description: ``},
-        {title: `[あ] SCRIPT BOT ✨`, rowId: `#sc `},//, description: ``},
-        {title: `[あ] GROUP OFC 💓`, rowId: `#gcbot `},//, description: ``},
-        {title: `[あ] SPEED 🍂`, rowId: `#speed `},//, description: ``},
-        {title: `[あ] LIST TEXT PRO 🌸`, rowId: `#textpro `},//, description: ``},
+	    {title: `Semua Perintah`, rowId: `.menul `},//, description: ``},
+            {title: `Nokos/Nomor Kosong`, rowId: `.nokos `},//, description: ``},
+	    {title: `Pemilik Bot`, rowId: `#owner `},//, description: ``},
+        {title: `Jasa Run Bot`, rowId: `#jasrun `},//, description: ``},
+        {title: `Bot Ini Gratis Ya`, rowId: `#gcbot `},//, description: ``},
+        {title: `Caranya, Hubungi Owner`, rowId: `#owner `},//, description: ``},
+         {title: `Dan Kirim Link Grup Kalian!`, rowId: `#gcbot `},//, description: ``},
+           {title: `Harap Sopan`, rowId: `#gcbot `},//, description: ``},
         ]
  } ]
 
 const listMessage = {
   text: sel,
   mentions: [m.sender],
-  footer: 'Jika menemukan bug,error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.',
+  footer: '*Note:* ```Saya Hanya Bot Biasa Yang Kadang Suka Error```',
   title: ras,
   buttonText: rs,
   sections
@@ -40,7 +40,7 @@ const listMessage = {
 
 handler.help = ['Menu'].map((v) => v + ' <List>')
 handler.tags = ['main']
-handler.command = /^(menu|help|\?)$/i
+handler.command = /^(menu)$/i
 
 module.exports = handler
 function clockString(ms) {
