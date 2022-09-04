@@ -42,25 +42,6 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-  </>
-╭─「 *${global.namebot}* 」  
-│ • Username : %name
-│ • Role : %role
-│ • Level : %level (%exp / %maxexp) %xp4levelup
-│ • Total XP : %totalexp XP
-│
-│ • Uptime : %uptime
-│ • Library : Baileys Multi Device
-│ • Tanggal Islam: %dateIslamic
-│ • Hari : %week %weton
-│ • Waktu: %time
-│ • Tanggal: %date
-│ • Version : %version
-│ • Prefix Used : *[ %p ]*
-│ • Database : %rtotalreg dari %totalreg 
-│ • Memory Used : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-│ • Free Apikey : bit.ly/freeapikey
-╰────
 ╭─ 「 *USER INFO* 」
 │ • Pengguna :  %name 
 │ • Limit : %limit / day
@@ -188,15 +169,15 @@ const ftroli = {
                             surface : 1,
                             message: 'Nicko Official',
                             orderTitle: 'MENU',
-                            thumbnail: await (await fetch('https://telegra.ph/file/3911d7aaaa8733314f70f.png')).buffer(),
+                            thumbnail: await (await fetch('https://telegra.ph/file/2251472e325f906f13133.png')).buffer(),
                             sellerJid: '0@s.whatsapp.net'
           
                           }
                         }
                       }
 await conn.reply(m.chat, '*Wait...*', m)
-await conn.send2Button(m.chat, await (await fetch('https://telegra.ph/file/cfbeb870983c988666691.png')).buffer(),  '*[ DASBOARD ]*', text, 'INFO BOT', '.info', 'OWNER', '.owner',  m, {
-      quoted: ftroli,  
+ conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/2251472e325f906f13133.png')).buffer(),  '*▼────[ DASBOARD ]────▼*', text, 'INFO BOT', '.info', 'OWNER', '.owner',  m, {
+      quoted: ftroli, 
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
               title: 'Bot Wahatsapp Ndra Md',
@@ -218,7 +199,7 @@ await conn.send2Button(m.chat, await (await fetch('https://telegra.ph/file/cfbeb
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = /^(menu|help|?)$/i
+handler.command = /^(menul)$/i
 
 handler.exp = 3
 
