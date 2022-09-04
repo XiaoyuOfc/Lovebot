@@ -1,7 +1,7 @@
 let handler = async (m, { conn, command, args }) => {
 let tetekss = `───〔 *Ready* 〕───
 
-${pickRandom(global.ngawur)}`
+${pickRandom(global.nokos)}`
 conn.sendBut(m.chat, tetekss, wm3, 'Owner', '.owner', m) 
 }
 handler.help = ['nokos']
@@ -24,6 +24,6 @@ function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
 
-global.ngawur = [
+global.nokos = [
 "Nokos/nomor kosong\n(OTP WHATSAPP)\n*SAYA SEDIA NOKOS/OTP UNTUK WHATSAPP*\nOTP INDO : 3K\nOTP THAILAND 5K\nOTP CANADA : 5K\n\n*Otp adalah One-Time Password*\nSaat anda membeli nokos/otp di saya,\nSaya akan kasih nomor random, dan anda daftarin ke WhatsApp.\nDan saya akan kasih otp/code.\nJika minat Hubungi saja wa.me/+66615143033",
 ]
