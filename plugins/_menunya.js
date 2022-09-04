@@ -184,7 +184,7 @@ await conn.reply(m.chat, '*Wait...*', m)
               body: '© Nicko', 
               description: 'Made With ❤️ Nicko', 
               mediaType: 2,  
-            thumbnail: await (await fetch('https://telegra.ph/file/72e0aeffe395f99539b95.jpg')).buffer(), 
+            thumbnail: await (await fetch('https://telegra.ph/file/735d93f6da9ffce18c792.jpg')).buffer(), 
            mediaUrl: `https://youtu.be/ZH64Xapsj6M` 
           }  
        }  
