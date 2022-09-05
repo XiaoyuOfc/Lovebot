@@ -9,23 +9,37 @@ let _uptime = process.uptime() * 1000
     let sel = `*I Am Ndra Botz*\n*Bot ini Aktif Selama ${uptime}*`
     let rs = `Klik Disini`
 const sections = [ {
-	title: `Ndra Botz | Jangan Spam`,
+	title: `${htki} PEMILIK BOT ${htka}`,
 	rows: [
-	    {title: `Semua Perintah`, rowId: `.menul `},//, description: ``},
-            {title: `Nokos/Nomor Kosong`, rowId: `.nokos `},//, description: ``},
-	    {title: `Pemilik Bot`, rowId: `#owner `},//, description: ``},
-        {title: `Jasa Run Bot`, rowId: `#jasrun `},//, description: ``},
-        {title: `Sewa bot permanen 15k untuk 2 grup`, rowId: `#owner `},//, description: ``},
-        {title: `10k Permanen untuk 1 grup`, rowId: `#owner `},//, description: ``},
-         {title: `Yang Sewa bot, Dapet Prem gratis`, rowId: `#owner `},//, description: ``},
-           {title: `Bot On 24 Jam`, rowId: `#gcbot `},//, description: ``},
-        ]
+	    {title: `💌 OWNER BOT`, rowId: ".owner", description: "Menampilkan Owner/Pembuat bot ini"},    
+	]
+    },{
+	title: `${htki} MENUNYA ${htka}`,
+	rows: [
+	    {title: `🔖 LIST MENU`, rowId: ".menul", description: "Menampilkan All menu"},
+	    {title: `🌟 LIST MENU VERSI PAYMENT`, rowId: ".pay", description: "Menampilkan All Menu Versi Payment"},
+	    {title: `💹 MENU INFO`, rowId: ".info", description: 'Menampilkan Menu Info Bot'},
+	]
+	},{
+	title: `${htki} MY BUSINESS ${htka}`,
+	rows: [
+	    {title: `🍂 SEWA BOT`, rowId: ".sewa", description: "10k Permanen + Free Premium"},
+	    {title: `🌺 NOKOS UNTUK WHATSAPP`, rowId: ".nokos", description: "Nokos adalah Nomor kosong sekali verify"},
+	    {title: `🌸 JASA RUN BOT`, rowId: ".jasrun", description: 'Jasa Run Di heroku, bot on 24 jam'},
+	]
+	},{
+	title: `${htki} GABUT🗿 ${htka}`,
+	rows: [
+	    {title: `🌷 AKU SAYANG DIA`, rowId: ".galau", description: "Tapi Dia Gak Sayang Aku🗿"},
+	    {title: `🌺 ISO NEMBANG, RA ISO NYULING`, rowId: ".galau", description: "Iso Nyawang, Ra Iso Nyanding:)"},
+	    {title: `☕ DUA TIGA TUTUP BOTOL`, rowId: ".ngawur", description: 'Yang Spam Kek Kont*l 🔪'},
+	]
  } ]
 
 const listMessage = {
   text: sel,
   mentions: [m.sender],
-  footer: '*Note:* ```Bot ini akan terus dan terus update, Jika menemukan fitur error/mau req fitur, hubungi saja owner```',
+  footer: '_*Note:* Bot ini akan terus dan terus update, Jika menemukan fitur error/mau req fitur, hubungi saja owner_',
   title: ras,
   buttonText: rs,
   sections
@@ -38,7 +52,7 @@ const listMessage = {
   if (!json.image) throw json
 }
 
-handler.help = ['Menu'].map((v) => v + ' <List>')
+handler.help = ['menu'].map((v) => v + ' <List>')
 handler.tags = ['main']
 handler.command = /^(menu)$/i
 
