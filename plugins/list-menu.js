@@ -5,30 +5,30 @@ let _uptime = process.uptime() * 1000
     let uptime = clockString(_uptime)
     let time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
     let ar = ['list', 'menu']
-   let ras = `Hai Kak  @${m.sender.split('@')[0]} 👋`
-    let sel = `*I Am Ndra Botz*\n*Bot ini Aktif Selama ${uptime}*`
-    let rs = `Klik Disini`
+   let ras = `❑—―———「 Ndra Botz 」——―—―❑`
+    let sel = `*Hai @${m.sender.split('@')[0]}*\n*Ini adalah list menu bot*\n*And bot ini 100% gratis ya*\n\n*Bot nya aktif selama ${uptime}*`
+    let rs = `KLIK DISINI`
 const sections = [ {
 	title: `${htki} PEMILIK BOT ${htka}`,
 	rows: [
-	    {title: `💌 OWNER BOT`, rowId: ".owner", description: "Menampilkan Owner/Pembuat bot ini"},    
+	    {title: `👤┊⟩»➵͜͡✪ OWNER BOT`, rowId: ".owner", description: "Kalau Chat Owner Minimal Salam lah, Jangan P, Okey!"},
 	]
     },{
 	title: `${htki} MENUNYA ${htka}`,
 	rows: [
-	    {title: `🔖 LIST MENU`, rowId: ".menul", description: "Menampilkan All menu"},
-	    {title: `🌟 LIST MENU VERSI PAYMENT`, rowId: ".pay", description: "Menampilkan All Menu Versi Payment"},
-	    {title: `💹 MENU INFO`, rowId: ".info", description: 'Menampilkan Menu Info Bot'},
+	    {title: `💌┊⟩»➵͜͡✪ MENU ALL`, rowId: ".menul", description: "Menampilkan All menu"},
+	    {title: `📜┊⟩»➵͜͡✪ ALL MENU VERSI PAY`, rowId: ".pay", description: "Menampilkan All Menu Versi Payment"},
+	    {title: `✨┊⟩»➵͜͡✪ MENU INFO`, rowId: ".info", description: 'Menampilkan Menu Info Bot'},
 	]
 	},{
 	title: `${htki} MY BUSINESS ${htka}`,
 	rows: [
-	    {title: `🍂 SEWA BOT`, rowId: ".sewa", description: "10k Permanen + Free Premium"},
-	    {title: `🌺 NOKOS UNTUK WHATSAPP`, rowId: ".nokos", description: "Nokos adalah Nomor kosong sekali verify"},
-	    {title: `🌸 JASA RUN BOT`, rowId: ".jasrun", description: 'Jasa Run Di heroku, bot on 24 jam'},
+	    {title: `🍂┊⟩»➵͜͡✪ BOT INI GRATIS`, rowId: ".gcbot", description: "Bot Ini Gratis Ya, Silakan Culik/Add Aja"},
+	    {title: `🌺┊⟩»➵͜͡✪ NOKOS UNTUK WHATSAPP`, rowId: ".nokos", description: "Nokos adalah Nomor kosong sekali verify"},
+	    {title: `🌸┊⟩»➵͜͡✪ JASA RUN BOT`, rowId: ".jasrun", description: 'Jasa Run Di heroku, bot on 24 jam'},
 	]
 	},{
-	title: `${htki} GABUT🗿 ${htka}`,
+	title: `${htki} GABUT ${htka}`,
 	rows: [
 	    {title: `🌷 AKU SAYANG DIA`, rowId: ".galau", description: "Tapi Dia Gak Sayang Aku🗿"},
 	    {title: `🌺 ISO NEMBANG, RA ISO NYULING`, rowId: ".galau", description: "Iso Nyawang, Ra Iso Nyanding:)"},
