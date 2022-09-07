@@ -18,8 +18,8 @@ global.gopay = ''
 
 //Name Bot & Grouplink//
 global.namebot = 'Ndra Botz'
-global.gc = 'https://chat.whatsapp.com/LSvh4GagBw9BYtiBxT31xe'
-global.web = 'https://chat.whatsapp.com/LSvh4GagBw9BYtiBxT31xe' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.gc = 'https://chat.whatsapp.com/DFYCMEj2JwAFw8pY55VkXv'
+global.web = 'https://chat.whatsapp.com/DFYCMEj2JwAFw8pY55VkXv' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = '*Sewa Bot*\nn10k Permanen\nHubungi http://Wa.me/66615143033'
 
 //Tanpilan wm Bot ( Sebagian Tidak di fungsi kan)//
