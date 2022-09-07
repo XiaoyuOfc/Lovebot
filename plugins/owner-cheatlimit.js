@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, { text }) => {
-m.reply('=> global.DATABASE.data.users[m.quoted.sender].limit = 100')
+m.reply('=> global.db.data.users[m.sender].limit = Infinity')
 
 }
 handler.help = ['cheatlimit']
