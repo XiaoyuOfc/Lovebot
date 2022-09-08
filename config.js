@@ -13,7 +13,7 @@ global.numberowner = '66615143033' // isi nomor kalian dengan awalan seperti di 
 global.instagram = 'https://chat.whatsapp.com/DFYCMEj2JwAFw8pY55VkXv' // isi Instagram kalian harus link
 global.github = 'https://chat.whatsapp.com/DFYCMEj2JwAFw8pY55VkXv' // gausah di isi juga gpp bro
 global.dana = '66615143033' // isi dengan nomor dana yg kamu punya 
-global.pulsa = '66615143033' // isi dengan nomor pulsa hp kalian
+global.pulsa = '6661514303' // isi dengan nomor pulsa hp kalian
 global.gopay = ''
 
 //Name Bot & Grouplink//
