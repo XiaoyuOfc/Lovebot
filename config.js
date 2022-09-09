@@ -8,16 +8,16 @@ global.mods = ['66615143033']   // isi jika perlu
 global.prems = ['66615143033']  // isi jika perlu
 
 //Isi dengan nama dan nomor lu//
-global.nameowner = 'Nicko' // isi nama kalian bebas
+global.nameowner = 'Ongner Tanvan' // isi nama kalian bebas
 global.numberowner = '66615143033' // isi nomor kalian dengan awalan seperti di contoh 
 global.instagram = 'https://chat.whatsapp.com/DFYCMEj2JwAFw8pY55VkXv' // isi Instagram kalian harus link
 global.github = 'https://chat.whatsapp.com/DFYCMEj2JwAFw8pY55VkXv' // gausah di isi juga gpp bro
 global.dana = '66615143033' // isi dengan nomor dana yg kamu punya 
-global.pulsa = '6661514303' // isi dengan nomor pulsa hp kalian
+global.pulsa = '66615143033' // isi dengan nomor pulsa hp kalian
 global.gopay = ''
 
 //Name Bot & Grouplink//
-global.namebot = 'Ndra Botz'
+global.namebot = 'Alyn Botz'
 global.gc = 'https://chat.whatsapp.com/DFYCMEj2JwAFw8pY55VkXv'
 global.web = 'https://chat.whatsapp.com/DFYCMEj2JwAFw8pY55VkXv' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = '*Sewa Bot*\nn10k Permanen\nHubungi http://Wa.me/66615143033'
@@ -27,10 +27,10 @@ global.fotonya1 = 'https://botcahx-rest-api.herokuapp.com/api/textpro/marvel-stu
 global.fotonya2 = 'https://botcahx-rest-api.herokuapp.com/api/textpro/marvel-studios?text=List%20&text2=Menu' 
 global.lolkey = 'rey2k22' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = '© Ndra Botz'
+global.wm = '© Alyn Botz'
 global.watermark = wm
-global.wm2 = '⫹⫺ Ndra Botz'
-global.wm3 = '© Ndra Botz'
+global.wm2 = '⫹⫺ Alyn Botz'
+global.wm3 = '© Alyn Botz'
 global.wm4 = '© 2022'
 global.htki = '––––––『' 
 global.htka = '』––––––'
@@ -42,7 +42,7 @@ global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = '*⫹⫺ Stiker sedang dibuat...*'
 global.packname = 'Made with'
-global.author = 'Bot WhatsApp\nNdra Botz'
+global.author = 'Bot WhatsApp\nAlyn Botz'
 
 //Apikey Setting//
 global.APIs = { // API Prefix
