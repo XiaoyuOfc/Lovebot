@@ -175,20 +175,21 @@ const ftroli = {
                           }
                         }
                       }
-await conn.reply(m.chat, '*Wait...*', m)
- conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/2251472e325f906f13133.png')).buffer(),  '*▼────[ DASBOARD ]────▼*', text, 'INFO BOT', '.info', 'OWNER', '.owner',  m, {
+await conn.reply(m.chat, '*Maaf Menu Sedang Error:(*', m)
+ conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/29ef2491e027168a130ff.png')).buffer(),  '*▼────[ DASBOARD ]────▼*', text, 'INFO BOT', '.info', 'OWNER', '.owner',  m, {
       quoted: ftroli, 
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
               title: 'Bot Wahatsapp Ndra Md',
               body: '© Nicko', 
               description: 'Made With ❤️ Nicko', 
-              mediaType: 2,  
-            thumbnail: await (await fetch('https://telegra.ph/file/735d93f6da9ffce18c792.jpg')).buffer(), 
+              mediaType: 1,  
+            thumbnail: await (await fetch('https://telegra.ph/file/34a28f97e3e7f3ae4dddd.jpg')).buffer(), 
            mediaUrl: `https://youtu.be/ZH64Xapsj6M` 
           }  
        }  
       })
+await conn.reply(m.chat, '*Eh Tapi Boong, Awokawok*', m)
 //await conn.sendFile(m.chat, vn, 'menu.opus', null, m, true, {
 //type: 'audioMessage', 
 //ptt: true})
