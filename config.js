@@ -17,7 +17,7 @@ global.pulsa = '66615143033' // isi dengan nomor pulsa hp kalian
 global.gopay = ''
 
 //Name Bot & Grouplink//
-global.namebot = 'Alyn Botz'
+global.namebot = 'Love Botz'
 global.gc = 'https://chat.whatsapp.com/DFYCMEj2JwAFw8pY55VkXv'
 global.web = 'https://chat.whatsapp.com/DFYCMEj2JwAFw8pY55VkXv' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = '*Sewa Bot*\nn10k Permanen\nHubungi http://Wa.me/66615143033'
@@ -27,10 +27,10 @@ global.fotonya1 = 'https://botcahx-rest-api.herokuapp.com/api/textpro/marvel-stu
 global.fotonya2 = 'https://botcahx-rest-api.herokuapp.com/api/textpro/marvel-studios?text=List%20&text2=Menu' 
 global.lolkey = 'rey2k22' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = '© Alyn Botz'
+global.wm = '© Love Botz'
 global.watermark = wm
-global.wm2 = '⫹⫺ Alyn Botz'
-global.wm3 = '© Alyn Botz'
+global.wm2 = '⫹⫺ Love Botz'
+global.wm3 = '© Love Botz'
 global.wm4 = '© 2022'
 global.htki = '––––––『' 
 global.htka = '』––––––'
@@ -42,7 +42,7 @@ global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = '*⫹⫺ Stiker sedang dibuat...*'
 global.packname = 'Made with'
-global.author = 'Bot WhatsApp\nAlyn Botz'
+global.author = 'Bot WhatsApp\nLove Botz'
 
 //Apikey Setting//
 global.APIs = { // API Prefix
