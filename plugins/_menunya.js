@@ -193,13 +193,13 @@ const ftroli = {
                         }
                       }
 conn.reply(m.chat, '*Maaf, menu sedang error:(*', m)
-await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/77d411d5a3808b375c232.jpg')).buffer(),  '*────────[ DASBOARD ]────────*', text, 'INFOBOT', '.info', 'LISTMENU', '.menu', m, {  
+await conn.send3ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/77d411d5a3808b375c232.jpg')).buffer(),  '*▼──────[ DASBOARD ]──────▼*', text, 'NOKOS', '.nokos', 'JASA RUN', '.jasrun', 'OWNER', '.owner', m, {  
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
               title: 'Bot Wahatsapp Multi Device',  
-              body: '© Nicko', 
-              description: 'Made With ❤️ Nicko', 
+              body: '© Human', 
+              description: 'Made With 🗿 human', 
               mediaType: 2,  
             thumbnail: await (await fetch('https://telegra.ph/file/29ef2491e027168a130ff.jpg')).buffer(), 
            mediaUrl: `https://youtu.be/jSYXNWuVhfU` 
