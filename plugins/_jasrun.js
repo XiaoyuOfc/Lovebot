@@ -25,5 +25,5 @@ function pickRandom(list) {
 }
 
 global.jasrun = [
-"Open Jasa Run Heroku\nHARGA\n10K SEBULAN\n15 PERMANEN\nSYARATNYA: Pakai Sc Yang Saya Gunakan, Karena Sc Yang Saya Gunakan Work heroku (ON 24 JAM DI HEROKU)\nJika Minat Hubungi Saja http://wa.me/+66615143033",
-]
+"*Suntik Followers Instagram*\n\ninstagram follower bule\n•500 follower | Rp3.500\n•1000 follower | Rp6.500\n•2000 follower | Rp11.500\n•5000 follower | Rp30.000\nInstagram follower Indonesia Real aktif\n•500 follower |  Rp25.000\n•1000 follower | Rp50.000\n•5000 follower | Rp240.000\n\n*Ada juga Instagram like, tiktok followers, tiktok like, Dll*\nbutuh penawaran lain nya? bisa bisik bisik lewat wa\n\norder?\nlangsung chat saya\nwa.me/66615143033\npembayaran all payment",
+] 
