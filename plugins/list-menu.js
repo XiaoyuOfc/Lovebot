@@ -6,7 +6,7 @@ let _uptime = process.uptime() * 1000
     let time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
     let ar = ['list', 'menu']
    let ras = `❑—―———「 Love Botz 」——―—―❑`
-    let sel = `*Hai @${m.sender.split('@')[0]}*\n*Open premium*\n10k 30 hari\n15k permanen\nKeuntungan premium:\n*Bisa masukin bot ke grup mana aja*\n*Grup temen*\n*Grup Orang lain*\n*Grup sendiri*\n*Tampa batas*\n*masukin bot ke 100 grup juga gpp*\nPake Fitur *.join*\nDan Fitur² Premium Lainnya\n\n*Jika Minat Silahkan Hubungi*\nhttp://Wa.me/+66615143033\n*Bot nya aktif selama ${uptime}*`
+    let sel = `*Hai @${m.sender.split('@')[0]}*Ini Adalah List Menu Bot\n*Bot nya aktif selama ${uptime}*`
     let rs = `KLIK DISINI`
 const sections = [ {
 	title: `${htki} PEMILIK BOT ${htka}`,
@@ -25,7 +25,7 @@ const sections = [ {
 	rows: [
 	    {title: `🍂┊⟩»➵͜͡✪ SEWA BOT`, rowId: ".owner", description: "5k Sebulan, 10k permanen Cuy, Kapan Lagi Nemu Yang Murah"},
 	    {title: `🌺┊⟩»➵͜͡✪ NOKOS UNTUK WHATSAPP`, rowId: ".nokos", description: "Nokos adalah Nomor kosong sekali verify"},
-	    {title: `🌸┊⟩»➵͜͡✪ JASA RUN BOT`, rowId: ".jasrun", description: 'Jasa Run Di heroku, bot on 24 jam'},
+	    {title: `🌸┊⟩»➵͜͡✪ SUNTIK FOLLOWERS IG`, rowId: ".jasrun", description: 'Murah Cuy Cek Aja'},
 	]
 	},{
 	title: `${htki} GABUT ${htka}`,
