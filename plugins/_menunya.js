@@ -193,7 +193,7 @@ const ftroli = {
                         }
                       }
 conn.reply(m.chat, '*Maaf, menu sedang error:(*', m)
-await conn.send3ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/77d411d5a3808b375c232.jpg')).buffer(),  '*▼──────[ DASBOARD ]──────▼*', text, 'NOKOS', '.nokos', 'JASA RUN', '.jasrun', 'OWNER', '.owner', m, {  
+await conn.send3ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/77d411d5a3808b375c232.jpg')).buffer(),  '*▼──────[ DASBOARD ]──────▼*', text, 'NOKOS', '.nokos', ' FOLLOWERS IG', '.jasrun', 'OWNER', '.owner', m, {  
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
