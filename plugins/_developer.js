@@ -14,7 +14,7 @@ VERSION:3.0
 N:Sy;Bot;;;
 FN: Ordinary people 
 item.ORG: Creator Bot
-item1.TEL;waid=66615143033:66615143033@s.whatsapp.net
+item1.TEL;waid=66987850470:66987850470@s.whatsapp.net
 item1.X-ABLabel:Nomor Creator Bot / Owner Bot
 item2.EMAIL;type=INTERNET:Kalo Chat Gak Penting Gak Akan Di Balas.
 item2.X-ABLabel:Email
