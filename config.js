@@ -3,17 +3,17 @@
 //Dalam file _menunya.js
 
 //『 Utama 』 //
-global.owner = ['66987850470']  // isi jika perlu
-global.mods = ['66987850470']   // isi jika perlu
-global.prems = ['66987850470']  // isi jika perlu
+global.owner = ['18254257910']  // isi jika perlu
+global.mods = ['18254257910']   // isi jika perlu
+global.prems = ['18254257910']  // isi jika perlu
 
 //Isi dengan nama dan nomor lu//
 global.nameowner = 'Ongner tanvann' // isi nama kalian bebas
-global.numberowner = '66987850470' // isi nomor kalian dengan awalan seperti di contoh 
+global.numberowner = '18254257910' // isi nomor kalian dengan awalan seperti di contoh 
 global.instagram = 'https://chat.whatsapp.com/DFYCMEj2JwAFw8pY55VkXv' // isi Instagram kalian harus link
 global.github = 'https://chat.whatsapp.com/DFYCMEj2JwAFw8pY55VkXv' // gausah di isi juga gpp bro
-global.dana = '66987850470' // isi dengan nomor dana yg kamu punya 
-global.pulsa = '66987850470' // isi dengan nomor pulsa hp kalian
+global.dana = '18254257910' // isi dengan nomor dana yg kamu punya 
+global.pulsa = '18254257910' // isi dengan nomor pulsa hp kalian
 global.gopay = ''
 
 //Name Bot & Grouplink//
