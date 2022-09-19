@@ -12,7 +12,7 @@ global.nameowner = 'Ongner tanvann' // isi nama kalian bebas
 global.numberowner = '6289652963317' // isi nomor kalian dengan awalan seperti di contoh 
 global.instagram = 'https://chat.whatsapp.com/DFYCMEj2JwAFw8pY55VkXv' // isi Instagram kalian harus link
 global.github = 'https://chat.whatsapp.com/DFYCMEj2JwAFw8pY55VkXv' // gausah di isi juga gpp bro
-global.dana = '628965296331' // isi dengan nomor dana yg kamu punya 
+global.dana = '62896529633177' // isi dengan nomor dana yg kamu punya 
 global.pulsa = '6289652963317' // isi dengan nomor pulsa hp kalian
 global.gopay = ''
 
