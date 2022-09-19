@@ -6,10 +6,10 @@ let _uptime = process.uptime() * 1000
     let time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
     let ar = ['list', 'menu']
    let ras = `❑—―———「 Love Botz 」——―—―❑`
-    let sel = `*Hai @${m.sender.split('@')[0]}*\nIni Adalah List Menu Bot\n*Bot nya aktif selama ${uptime}*`
+    let sel = `*Hai @${m.sender.split('@')[0]}*\nJual followers Instagram\n1k Followers harga 5k\n2k Followers Harga 10k\nDan Seterusnya\nHubungi wa.me/+6289652963317\nTestimoni? ADA\n*Payment:*\nPulsa•Dana•Ovo•Qris All Payment\n\n*Bot ini aktif selama ${uptime}*`
     let rs = `KLIK DISINI`
 const sections = [ {
-	title: `${htki} PEMILIK BOT ${htka}`,
+	title: `${htki} PEMILIK  BOT ${htka}`,
 	rows: [
 	    {title: `👤┊⟩»➵͜͡✪ OWNER BOT`, rowId: ".owner", description: "Kalau Chat Owner Minimal Salam lah, Jangan P, Okey!"},
 	]
